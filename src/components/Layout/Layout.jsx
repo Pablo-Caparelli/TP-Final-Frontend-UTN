@@ -14,7 +14,7 @@ const Layout = (props) => {
   return (
     <>
       <header>
-        <img src="../../public/Pikachu.jpg" alt="imagen de Pikachu" />
+        <img src="/Pikachu.jpg" alt="imagen de Pikachu" />
         <nav>
           <ul>
             <li>
