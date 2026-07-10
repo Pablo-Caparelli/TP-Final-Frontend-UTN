@@ -70,7 +70,7 @@ footer {
 }
 
 h5 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   padding: 10px 0;
 }
@@ -101,3 +101,284 @@ p {
 .btn:hover:nth-child(3) {
   color: rgb(207, 20, 167);
 }
+
+/* media queries */
+
+/* @media (max-width: 480px) {
+  header {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header ul {
+    display: block;
+    margin: auto;
+  }
+
+  header ul li {
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: scale 0.2s;
+    margin-right: 850px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .nav-link {
+    gap: 30px;
+    height: 1.5rem;
+  }
+
+  h5 {
+    text-align: center;
+    margin-right: 850px;
+    font-size: 2rem;
+  }
+
+  p {
+    text-align: center;
+    margin-right: 850px;
+    font-size: 2rem;
+  }
+
+  .social {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 850px;
+  }
+} */
+
+/* @media (min-width: 481px) and (max-width: 880px) {
+  header {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header ul {
+    display: block;
+    margin: auto;
+  }
+
+  header ul li {
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: scale 0.2s;
+    margin-right: 450px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    width: 1880px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .nav-link {
+    gap: 30px;
+    height: 1.5rem;
+  }
+
+  h5 {
+    text-align: center;
+    margin-right: 450px;
+    font-size: 1.5rem;
+  }
+
+  p {
+    text-align: center;
+    margin-right: 450px;
+    font-size: 1.6rem;
+  }
+
+  .social {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 450px;
+    font-size: 10px;
+  }
+} */
+
+/* @media (min-width: 881px) and (max-width: 1024px) {
+  header {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header ul {
+    flex-direction: column;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 550px;
+    gap: 10px;
+    border-bottom: 2px solid black;
+  }
+
+  header ul li {
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nav-link {
+    gap: 30px;
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+    margin-right: 550px;
+    font-size: 2.5rem;
+  }
+
+  p {
+    text-align: center;
+    margin-right: 550px;
+    font-size: 1.5rem;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 550px;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+}
+
+/* @media (min-width: 1024px) {
+  header {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  header img {
+    display: none;
+  }
+
+  header ul {
+    flex-direction: column;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 550px;
+    gap: 10px;
+    border-bottom: 2px solid black;
+  }
+
+  header ul li {
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    width: 1880px;
+    height: 225px;
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nav-link {
+    gap: 30px;
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+    margin-right: 550px;
+    font-size: 2.5rem;
+  }
+
+  p {
+    text-align: center;
+    margin-right: 550px;
+    font-size: 1.5rem;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 550px;
+  }
+
+  .btn {
+    padding: 10px;
+  }
+} */

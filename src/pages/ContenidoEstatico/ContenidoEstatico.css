@@ -4,55 +4,103 @@
 /* Auth: no, quiere decir que es gratis */
 
 .fondo {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../../../public/imagen4-carrousel.jpg");
+  background-image: url("/imagen4-carrousel.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
 }
 
 .titulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 3rem;
   color: rgb(95, 207, 20);
   text-align: center;
-  padding-top: 150px;
-  padding-bottom: 20px;
   text-shadow: 2px 2px 2px black;
+  margin-bottom: 1rem;
 }
 
 .subtitulo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
   color: rgb(19, 162, 219);
-  width: 60%;
+  text-align: center;
+  max-width: 800px;
   text-shadow: 2px 2px 2px black;
 }
 
 .fondo2 {
-  background-color: rgb(233, 240, 173);
   width: 100%;
+  background-color: rgb(233, 240, 173);
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
 }
 
 .cart {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  padding: 100px 100px;
+  width: 320px;
+  text-align: center;
 }
 
 .card-img-top {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.card-title {
+  margin: 1rem 0;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .titulo {
+    font-size: 2.4rem;
+  }
+
+  .subtitulo {
+    font-size: 1.5rem;
+    max-width: 90%;
+  }
+
+  .cart {
+    width: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fondo {
+    padding: 1.5rem;
+  }
+
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+    max-width: 95%;
+  }
+
+  .fondo2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart {
+    width: 90%;
+  }
+
+  .card-img-top {
+    max-width: 200px;
+  }
 }
