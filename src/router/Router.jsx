@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ContenidoEstatico } from "../pages/ContenidoEstatico/ContenidoEstatico.jsx";
 import { DatosAPI } from "../pages/DatosAPI/DatosAPI.jsx";
-import { Contacto } from "../pages/Contacto/contacto.jsx";
+import { Contacto } from "../pages/Contacto/Contacto.jsx";
 
 const Router = () => {
   return (
